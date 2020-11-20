@@ -8,7 +8,7 @@ public class LibraryBook extends Book implements Booker {
     @Override
     public void isRead(boolean r) {
 
-        if (r == true){
+        if (r){
             System.out.println("You've read this book.");
         }else{
             System.out.println("You've not read this book.");
@@ -18,7 +18,7 @@ public class LibraryBook extends Book implements Booker {
 
     @Override
     public void isPhysical(boolean p) {
-        if (p == true){
+        if (p){
             System.out.println("This book is a Physical copy.");
         }else{
             System.out.println("This is an E-Book.");

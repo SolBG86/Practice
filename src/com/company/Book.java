@@ -1,6 +1,6 @@
 package com.company;
 
-public class Book {
+public abstract class Book {
    private String title;
    private int pages;
    private String genre;
@@ -14,7 +14,7 @@ public class Book {
    }
 
    public void discribe(){
-       System.out.println("The Book: " + title + " is " + pages + " long." + "\n"+
+       System.out.println("The Book: " + title + " is " + pages + " pages long." + System.lineSeparator() +
                "It is a " + genre + " book.");
    }
 
